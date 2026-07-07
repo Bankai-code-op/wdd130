@@ -22,7 +22,7 @@ img {
 }
 
 p {
-    padding:  10px;
+    padding: 0;
 }
 
 main {
@@ -30,11 +30,11 @@ main {
 }
 
 aside {
-    width: 20rem;
-    margin: 10px;
-    border: 1px solid rgb(0 0 0 / 0.5);/*1*/
-    padding: 1rem;
-    background-color: #f4f4f4;
+    width: 20em;
+    margin: 10em;
+    border: 1px solid rgb(0 0 0 / 0.5);
+    padding: 1em;
+    background-color: #eee;
     color: #333;
     text-align: center;
 }
@@ -51,8 +51,6 @@ main img {
     padding: 10px;
     box-shadow: 0 0 30px rgb(80, 80, 80);
 }
-
-footer p { padding: 0;}
 
 footer {
     margin-top: 15px;
