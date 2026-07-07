@@ -39,7 +39,7 @@ aside {
     text-align: center;
 }
 
- img {
+aside img {
         width: 200px;
         height: auto;
     }
@@ -49,7 +49,7 @@ main img {
     height: auto;
 }
 
-p { padding: 0;}
+aside p { padding: 0;}
 
 footer {
     margin-top: 15px;
