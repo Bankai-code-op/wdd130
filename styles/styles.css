@@ -47,9 +47,12 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: #000000 1px solid;
+    padding: 10px;
+    box-shadow: 0 0 30px rgb(80, 80, 80);
 }
 
-aside p { padding: 0;}
+footer p { padding: 0;}
 
 footer {
     margin-top: 15px;
