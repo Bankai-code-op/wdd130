@@ -40,11 +40,8 @@ nav, p, section, article {
     text-decoration: none;
 }
 
-
-
 .hero {
     position: relative;
-    max-width: auto;
     margin: 0 auto;
     padding: 15px;
 }
@@ -64,13 +61,13 @@ h1 {
     text-align: center;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 20px;
     right: 16px;
-    background-color: var(--secondary-color);
-    color: #fff;
     background-color: rgba(244, 162, 97, 0.7);
+    color: #fff;
+    margin: 0;
 }
 
 .hero article img {
@@ -78,63 +75,10 @@ article {
     width: 125px;
 }
 
-
-/* .hero article*/
-
-/* header, main, footer {
-    width: 100%;
+header {
+    background-color: var(--primary-color);
 }
 
-p {
-    max-width: 840px;
-    margin: 16px auto;
+nav a {
+    color: var(--accent2-color);
 }
-
-.hero {
-    position: relative;
-    width: 100%;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-
-h1 {
-    position: absolute;
-    top: 15%;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    background-color: rgba(38, 70, 83, 0.75); /* dark navy, translucent */
-    /* color: #fff;
-}
-
-article {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    width: 70%;
-    padding: 16px;
-    background-color: rgba(38, 70, 83, 0.75);
-    color: #fff;
-}
-
-.hero article img {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 150px;
-    float: none; /* float won't apply under absolute positioning anyway */
-
-
-/* h2 {
-    width: 100%;
-    background-color: var(--accent1-color);
-    color: #fff;
-    text-align: center;
-    padding: 24px;
-/* } */
