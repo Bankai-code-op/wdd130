@@ -366,3 +366,249 @@ footer {
     font-weight: bold;
 }
  
+
+
+/* ===== Home Page Additions ===== */
+ 
+.home-hero {
+    position: relative;
+    margin: 0 auto;
+}
+ 
+.home-hero img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+ 
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: var(--overlay-color);
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    color: var(--accent1-color);
+}
+ 
+.hero-overlay h1 {
+    background: none;
+    padding: 0;
+    margin-bottom: 0.5rem;
+}
+ 
+.hero-overlay p {
+    margin: 0 0 1rem;
+}
+ 
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.4rem;
+}
+ 
+.cta-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+}
+ 
+.intro-newsletter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+ 
+.intro-text h2,
+.newsletter h2 {
+    background: none;
+    text-align: left;
+    padding: 0;
+}
+ 
+.newsletter {
+    background-color: var(--white-color);
+    border: 1px solid var(--accent1-color);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+ 
+.newsletter-form .form-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+ 
+.newsletter-form label {
+    text-align: right;
+    padding-right: 1rem;
+    font-weight: bold;
+}
+ 
+.newsletter-form input {
+    padding: 0.5rem;
+    border: 1px solid var(--accent1-color);
+    border-radius: 0.25rem;
+}
+ 
+.newsletter-form .submit-btn {
+    display: block;
+    margin: 1rem auto 0;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+    font-weight: bold;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.6rem 1.5rem;
+    cursor: pointer;
+}
+ 
+.newsletter-form .submit-btn:hover {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+}
+ 
+.offerings {
+    text-align: center;
+    padding: 2rem;
+}
+ 
+.offerings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+ 
+.offerings-grid figure {
+    margin: 0;
+}
+ 
+.offerings-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+ 
+.offerings-grid figcaption {
+    text-align: left;
+    margin-top: 1rem;
+}
+ 
+.offerings-grid h3 {
+    color: var(--accent1-color);
+    margin-bottom: 0.5rem;
+}
+ 
+/* ===== Trips Page Additions ===== */
+ 
+.trips-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+ 
+.trips-intro .cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.4rem;
+}
+ 
+.trips-intro .cta-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+}
+ 
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+ 
+.trip-card {
+    border: 1px solid var(--accent1-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: var(--white-color);
+}
+ 
+.trip-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+ 
+.trip-text {
+    padding: 1rem;
+}
+ 
+.trip-text h2 {
+    background: none;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+ 
+.trip-text p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+ 
+.trip-table {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+ 
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+ 
+.trip-table th,
+.trip-table td {
+    border: 1px solid var(--accent1-color);
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+ 
+.trip-table th {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+}
+ 
+.trip-table tbody tr:nth-child(even) {
+    background-color: var(--overlay-color);
+}
+ 
