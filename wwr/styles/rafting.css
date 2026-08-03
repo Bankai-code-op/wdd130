@@ -63,6 +63,11 @@ nav, p, section, article {
     text-align: center;
 }
 
+.hero article h2 { 
+    background: none; 
+    padding: 0; 
+    text-align: left; }
+
 .hero article {
     position: absolute;
     bottom: 20px;
